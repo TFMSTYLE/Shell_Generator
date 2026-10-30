@@ -3,7 +3,7 @@
 ![shell-thumb](https://github.com/user-attachments/assets/7d064310-d5ea-4728-9367-507c03d053b5)
 
 **Author:** The French Monkey (TFMSTYLE)  
-**Version:** 1.0.0  
+**Version:** 1.0.1  
 
 ---
 
@@ -123,3 +123,21 @@ Useful for starting fresh with new shell variations.
 - Enable **Ribs** for decorative or naturalistic detailing.  
 - **Smooth Shading** enhances realism when rendering.  
 - Generated shells are parametric and optimized for further subdivision, texturing, or 3D printing workflows.
+
+---
+
+## Install
+
+Needs Blender 4.2 or later. Get the zip from [tfmstyle.com](https://tfmstyle.com), then in Blender open Edit > Preferences > Get Extensions, open the menu at the top right and pick Install from Disk.
+
+To build the zip yourself, run this in the repo folder:
+
+```bash
+blender --command extension build
+```
+
+---
+
+## License
+
+GPL 3.0 or later. See [LICENSE](LICENSE).
